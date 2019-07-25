@@ -182,6 +182,9 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
+INSERT INTO `users` (`id`, `username`, `password`, `ip`, `lastlogin`) VALUES
+(1, 'admin', '$1$lTog9F7d$Bwp5Mt8HWBTaXiFhvRY4m0', '', '');
+
 --
 -- Table structure for table `vms`
 --
